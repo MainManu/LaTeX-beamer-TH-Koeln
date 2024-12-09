@@ -32,13 +32,13 @@
 % Title page
 \defbeamertemplate*{title page}{thk}[1][]
 { 
-    \vspace{-4em}
+    \vspace{-2em}
     \begin{tikzpicture}
         \useasboundingbox (0,0.15\paperheight) rectangle(\the\paperwidth,\the\paperheight);
-        \node[anchor=west, font=\fontsize{15pt}{15pt}\selectfont, text=black, text width=\linewidth]
+        \node[anchor=west, font=\fontsize{15pt}{5pt}\selectfont, text=black, text width=\linewidth]
             (N_titleA) at (0,0.85*\the\paperheight) 
             {\inserttitle};
-        \node[anchor=west, font=\fontsize{10pt}{10pt}\selectfont, text=gray, text width=\linewidth]
+        \node[anchor=west, font=\fontsize{10pt}{2pt}\selectfont, text=gray, text width=\linewidth]
             (N_titleA) at (0,0.77*\the\paperheight) 
             {\insertsubtitle};
         %\node[anchor=west, font=\fontsize{8pt}{8pt}\selectfont, text=black]
